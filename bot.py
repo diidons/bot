@@ -4,10 +4,10 @@ import asyncio
 from mcstatus import MinecraftServer
 from discord.ext import commands
 
-TOKEN = os.getenv('DISCORD_TOKEN')
-MC_SERVER_IP = os.getenv('MC_SERVER_IP')
+TOKEN = os.getenv(MTI2MDkyOTgyMzUzOTIwMDAxMA.GzaYdK.rGj-Yj8TWuoLWEEXjKvAtOKv-RaFAxSREvhkhQ)
+MC_SERVER_IP = os.getenv(luigiparons.aternos.me)
 UPDATE_INTERVAL = int(os.getenv('UPDATE_INTERVAL', 60))
-CHANNEL_ID = int(os.getenv('CHANNEL_ID'))
+CHANNEL_ID = int(os.getenv(1260926124842549359))
 
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix='!', intents=intents)
